@@ -10,7 +10,7 @@ import (
 var defaultSettings = []Setting{
 	{Name: "siteURL", Value: `http://localhost`, Type: "basic"},
 	{Name: "siteName", Value: `Cloudreve`, Type: "basic"},
-	{Name: "register_enabled", Value: `1`, Type: "register"},
+	{Name: "register_enabled", Value: `0`, Type: "register"},
 	{Name: "default_group", Value: `2`, Type: "register"},
 	{Name: "siteKeywords", Value: `Cloudreve, cloud storage`, Type: "basic"},
 	{Name: "siteDes", Value: `Cloudreve`, Type: "basic"},
